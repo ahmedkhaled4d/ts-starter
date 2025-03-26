@@ -1,3 +1,5 @@
+import { OrderCreatedEvent, UserRegisteredEvent } from "./types";
+
 // Event Bus: Central event management system
 class EventBus {
   private static instance: EventBus;
@@ -45,24 +47,6 @@ class EventBus {
       }
     });
   }
-}
-
-// Custom Event Types
-interface UserRegisteredEvent {
-  userId: string;
-  email: string;
-  registrationDate: Date;
-}
-
-interface OrderCreatedEvent {
-  orderId: string;
-  userId: string;
-  total: number;
-  items: Array<{
-    productId: string;
-    quantity: number;
-    price: number;
-  }>;
 }
 
 // Domain Services
