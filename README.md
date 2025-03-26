@@ -25,8 +25,8 @@ This is a modern TypeScript starter project with a comprehensive development set
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/typescript-starter.git
-cd typescript-starter
+git clone https://github.com/ahmedkhaled4d/ts-starter.git
+cd ts-starter
 ```
 
 2. Install dependencies:
