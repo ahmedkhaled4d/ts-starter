@@ -108,12 +108,6 @@ Husky is configured to:
 
 Distributed under the ISC License. See `LICENSE` for more information.
 
-## Contact
-
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/yourusername/typescript-starter](https://github.com/yourusername/typescript-starter)
-
 ```
 
 ## Recommended Extensions (for VSCode)
